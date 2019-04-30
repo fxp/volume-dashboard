@@ -1,0 +1,25 @@
+{
+  "name": "volume-meter",
+  "version": "1.0.0",
+  "description": "I whipped this app up to show a basic volume meter on live audio input.  It does both clip detection and RMS volume.",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "https": "^1.0.0",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwilso/volume-meter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cwilso/volume-meter/issues"
+  },
+  "homepage": "https://github.com/cwilso/volume-meter#readme"
+}
