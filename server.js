@@ -18,7 +18,8 @@ var io = require('socket.io')(server);
 
 io.on('connection', function (socket) {
     console.log('an user connected');
-    socket.on('volume', (v)=>{
-        io.emit('volume', v);
-    })
+    socket.on('volume', (v) => {
+        io.emit('all_volume', v);
+        console.log('all_volume', v);
+    });
 });

@@ -84,7 +84,7 @@ function gotStream(stream) {
     drawLoop();
 }
 
-let station_id = 'test';
+let station_id = undefined;
 
 function onNameSaved() {
     station_id = document.getElementById('station_id').value;

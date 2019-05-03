@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+    <title>Volume Meter Sample</title>
+    <!-- Include the volume meter component -->
+
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script src="volume-meter.js"></script>
+    <!-- Include the main app logic -->
+    <script src="monitor.js"></script>
+</head>
+<body>
+<div>
+    <div id="volumes" style="width: 500px; background-color: azure"></div>
+    <div>
+        <input id="station_id"/>
+        <button onclick="onNameSaved()">Save</button>
+    </div>
+
+    <div>
+        <button onclick="onListen()">Listen</button>
+        <canvas id="meter_2" width="500" height="50"></canvas>
+    </div>
+
+    <script>
+
+    </script>
+</div>
+</body>
+</html>
